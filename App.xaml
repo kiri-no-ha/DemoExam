@@ -1,0 +1,10 @@
+﻿<Application x:Class="DemoExam.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DemoExam"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="Background" Color="#D2F6E7"/>
+        <SolidColorBrush x:Key="Foreground" Color="#70B2AF"/>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="DemoExam.MainWindow" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoExam"
+        mc:Ignorable="d"
+        Title="Чудо Обувь" Height="450" Width="800"
+        Background="White" FontFamily="Calibri">
+    <Grid>
+        <Image Source="Images/Чудо Обувь.png"
+               Width="50" Height="50"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Margin="10"/>
+
+        <Frame Source="Pages/ProductPage.xaml"
+               Margin="0,50,0,0"/> 
+    </Grid>
+
+</Window>
+    
